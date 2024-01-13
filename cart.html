@@ -90,7 +90,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <h5 class="title_ticket_cart">CELEBRATION LAND</h5>
-                        <a href="#" class="btn_t_info">Informasi Detail <i class="fas fa-info-circle"></i></a>
+                        <a href="#detail_ticket" class="btn_t_info" data-toggle="modal" data-target="#detail_ticket">Informasi Detail <i class="fas fa-info-circle"></i></a>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="qty">
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <h5 class="title_ticket_cart">LIBURAN CERIA HS</h5>
-                        <a href="#" class="btn_t_info">Informasi Detail <i class="fas fa-info-circle"></i></a>
+                        <a href="#detail_ticket" class="btn_t_info" data-toggle="modal" data-target="#detail_ticket">Informasi Detail <i class="fas fa-info-circle"></i></a>
                     </div>
                     <div class="col-12 col-md-3">
                         <div class="qty">
@@ -284,7 +284,7 @@
     </footer>
 
     <!-- Modal Detail Tiket-->
-    <div class="wrap_modal_confirmation modal fade" id="confirm_ticket" tabindex="-1" role="dialog" aria-labelledby="confirm_ticketTitle" aria-hidden="true">
+    <div class="wrap_modal_confirmation modal fade" id="detail_ticket" tabindex="-1" role="dialog" aria-labelledby="confirm_ticketTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -308,31 +308,7 @@
                     <li>Tanggal kunjungan yang dipilih saat pemesanan tiket online</li>
                     <li>Tidak dapat di re-schedule</li>
                   </ul>
-                  <form class="form_modal">
-                    <div class="row">
-                      <div class="col-12 col-md-6 pr-0">
-                        <div class="wrap_date_field">
-                          <!-- <div class="col-12 col-md-12 pl-0"> -->
-                            <div class="wrap_field date br-r">
-                              <div class="select control-group">
-                                  <input id="date_ticket" class="input-date" type="text" name="daterange" value="" />
-                                  <label class="select-label">Pilih Tanggal</label>
-                                  <div class="icon_field">
-                                    <i class="fas fa-calendar"></i>
-                                  </div>
-                              </div>
-                            </div>
-                          <!-- </div> -->
-                        </div>
-                      </div>
-                      <div class="col-12 col-md-6">
-                        <div class="wrap_btn">
-                          <a href="#" class="btn_primary red">Tambah ke Keranjang <i class="fas fa-shopping-cart"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                    
-                </form>
+                  
                 </div>
               </div>
             </div>
