@@ -55,7 +55,7 @@
     </header>
       
    
-    <section class="container space_section">
+    <section class="container space_section pb-2">
       <div class="page_step">
         <ul>
           <li class="complete">Home</li>
@@ -105,7 +105,11 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="price text-right">
-                            <h6>Rp. 150.000 <span>x(1)</span></h6>
+                            <div class="wrap_price_">
+                                <div class="price_">
+                                    <h6>Rp. 150.000 <span>x(1)</span></h6>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -132,19 +136,141 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="price text-right">
-                            <h6 class="coret">Rp. 150.000 <span>x(1)</span></h6>
-                            <h6>Rp. 150.000 <span>x(1)</span></h6>
+                            <div class="wrap_price_">
+                                <span class="coupon_code"><img src="./assets/images/icon/coupon.svg" alt="" />KD123456</span>
+                                <div class="price_">
+                                    <h6 class="coret">Rp. 150.000 <span>x(1)</span></h6>
+                                    <h6>Rp. 150.000 <span>x(1)</span></h6>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-
+        <div class="wrap_coupon_input">
+            <div class="row">
+                <div class="col-12 col-md-9">
+                    <form class="d-flex">
+                        <div class="form-group">
+                            <label>Kode Promo/ Voucher Diskon </label>
+                            <input class="form-control form-control-lg" type="text" placeholder="Masukan kode promo">
+                        </div>
+                        <button type="submit" class="btn_primary">Tambahkan Kupon</button>
+                    </form>
+                </div>
+                <div class="col-12 col-md-3">
+                   <div class="wrap_total">
+                        <h6>Diskon: <span>Rp. 5.000</span></h6>
+                        <h3>Total: <span>Rp. 380.000</span></h3>
+                   </div>
+                </div>
+            </div>
         </div>
 
       </div>
 
    
+    </section>
+
+    <section class="container space_section pt-2">
+        <div class="title_page mb-3">
+            <h3>Lengkapi<span> Data Pengunjung</span></h3>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="wrap_input_pax">
+                    <form action="">
+                        <div class="form-group">
+                            <label>Nama Lengkap</label>
+                            <input class="form-control form-control-lg" type="text">
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <label>Tanggal Lahir</label>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <select id="inputborn" class="form-control">
+                                    <option selected>Tanggal</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <select id="inputborn" class="form-control">
+                                    <option selected>Bulan</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <select id="inputborn" class="form-control">
+                                    <option selected>Tahun</option>
+                                    <option>1990</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input class="form-control form-control-lg" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label>Provinsi (Domisili)</label>
+                            <select class="form-control">
+                                <option selected>Domisili</option>
+                                <option>Jakarta</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Kota (Domisili)</label>
+                            <select class="form-control">
+                                <option selected>Domisili</option>
+                                <option>Jakarta</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Nomor Handphone</label>
+                            <input class="form-control form-control-lg" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label>Metode Pembayaran</label>
+                            <select class="form-control">
+                                <option selected>Pilih Pembayaran</option>
+                                <option>BCA</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>  
+            </div>
+            
+
+            <div class="col-12 col-md-6">
+                <div class="wrap_terms">
+                    <p>
+                        Perhatian:<br><br>
+                        Dalam kondisi kejadian luar biasa (force majeur) seperti pandemi
+                        kesehatan yang ditetapkan oleh pemerintah, tiket yang sudah dibeli
+                        (secara daring/luring) dapat dijadwalkan ulang kedatangannya
+                        dengan batas waktu pemakaian selambat-lambatnya 1 (satu) bulan
+                        setelah status kondisi kejadian luar biasa (force majeur) dihapus.
+                    </p>
+                </div>
+                <div class="custom-control custom-checkbox mt-3 mb-4">
+                    <input type="checkbox" class="custom-control-input" id="check_terms">
+                    <label class="custom-control-label" for="check_terms">Setuju dengan syarat dan ketentuan berlaku</label>
+                </div>
+                <a href="#" class="btn_primary style2 col-12 col-md-6">Konfirmasi Pembelian <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+
     </section>
 
     <footer>
@@ -157,7 +283,7 @@
       </div>
     </footer>
 
-    <!-- Modal Konfirmasi Tiket-->
+    <!-- Modal Detail Tiket-->
     <div class="wrap_modal_confirmation modal fade" id="confirm_ticket" tabindex="-1" role="dialog" aria-labelledby="confirm_ticketTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
@@ -222,7 +348,6 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-
     <script src="./assets/js/theme.js"></script>
 
 
