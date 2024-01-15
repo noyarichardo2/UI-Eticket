@@ -18,7 +18,7 @@ $(document).ready(function() {
        allowInput: false,
        altInput: true,
        altFormat: "D, j F-y",
-       showMonths:2,
+       showMonths:1 ,
        "locale": "id",
     });
     // departDate.setDate(new Date());
