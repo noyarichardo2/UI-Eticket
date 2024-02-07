@@ -622,9 +622,9 @@
                   </ul>
                   <form class="form_modal">
                     <div class="row">
-                      <div class="col-12 col-md-6 pr-0">
+                      <div class="col-12 col-md-7 pr-0 mb-2 mt-4">
                         <div class="wrap_date_field">
-                          <!-- <div class="col-12 col-md-12 pl-0"> -->
+                          <label>Tanggal</label>
                             <div class="wrap_field date br-r">
                               <div class="select control-group">
                                   <input id="date_ticket" class="input-date" type="text" name="daterange" value="" />
@@ -634,9 +634,33 @@
                                   </div>
                               </div>
                             </div>
-                          <!-- </div> -->
                         </div>
                       </div>
+                      <div class="col-12 col-md-5 wrap_qty mb-2 mt-3">
+                        <div class="qty">
+                          <label>Jumlah Pengunjung</label>
+                          <div class="wrap_option">
+                              <div class="input-container">
+                                 <button class="btn_pls_mns" id="minus-btn"><i class="fas fa-minus"></i></button>
+                                 <input name="qty" type="number" min="0" max="7" id="number-input" value="1" disabled>
+                                 <button class="btn_pls_mns" id="plus-btn"><i class="fas fa-plus"></i></button>
+                              </div>
+                           </div>
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-md-12">
+                          <div class="wrap_coupon_input d-flex">
+                            <form class="d-flex">
+                              <div class="form-group">
+                                <label>Kode Promo/ Voucher Diskon </label>
+                                  <input class="form-control form-control-lg" type="text" placeholder="Masukan kode promo">
+                              </div>
+                              <button type="submit" class="btn_default">Tambahkan Kupon</button>
+                          </form>
+                          </div>
+                      </div>
+                      
                       <div class="col-12 col-md-6">
                         <div class="wrap_btn">
                           <a href="#" class="btn_primary red">Tambah ke Keranjang <i class="fas fa-shopping-cart"></i></a>
